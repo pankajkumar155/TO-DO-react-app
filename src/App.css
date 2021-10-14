@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "Ubuntu";
+}
+.head {
+  font-size: 3rem;
+  color: rgb(15, 15, 15);
+}
+.form-control {
+  display: inline-block !important;
+  width: 55%;
+  font-size: 1rem;
+  color: #fff;
+}
+#gg {
+  border: none;
+  box-shadow: 0px 1px 2px 5px rgb(252, 252, 252);
+  color: black !important;
+  outline: none;
+}
+.internal button {
+  color: white;
+  border: 0.4em solid #fff;
+  border-radius: 10px;
+  margin-left: 20px;
+  transition: 1s cubic-bezier(0.1, 0.3, 0, 0.23);
+}
+.internal button:hover {
+  box-shadow: 0px 0px 2px 3px #fff;
+}
+.main {
+  margin:auto;
+  min-height: 600px;
+  width: auto;
+  background-color: aqua;
+}
+.top {
+  margin: 10vh auto;
+  width: 40%;
+  min-height: 70vh;
+  border: 0.5rem solid black;
+  box-shadow: 0px 1px 10px 7px rgb(255 255 255);
+  border-radius: 5em;
+  text-align: center;
+}
+
+.ul {
+  padding: 1.5rem;
+  margin-top: 2em;
+  font-size: 1.5rem;
+  text-align: center;
+  list-style: none;
+}
+.list {
+  list-style: none;
+  border-radius: 2rem;
+  box-shadow: 0.5px 0.5px 10px rgb(255, 255, 255);
+  background-color: rgb(215, 253, 2);
+  font-size: 1.4rem;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  font-weight: 400;
+}
+.hel {
+  float: right;
+  text-decoration: none;
+}
+i {
+  font-style: normal;
+  margin-right: 2px;
+}
+
+@media screen and (max-width: 500px) {
+  .top {
+    width: 80vw;
+  }
+  .ul {
+    padding: 0;
+    margin: 0;
+  }
+  .list {
+    font-size: 1rem;
+  }
+}
